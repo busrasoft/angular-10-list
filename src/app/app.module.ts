@@ -4,12 +4,12 @@ import { FormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CitiesComponent } from './cities/cities.component';
+import { ProductsComponent } from './products/products.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CitiesComponent
+    ProductsComponent
   ],
   imports: [
     FormsModule,
